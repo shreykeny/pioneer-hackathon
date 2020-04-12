@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#home {
+    height: 100vh; 
+    background : #ebedd8; 
+}
+
+#feature {
+    height: 100vh; 
+    background : #ababff;
+}
+
+#login-screen {
+    display : flex;
+align-items: center;
+flex-direction: column;
+    background : #b6e0cc;
+    height: 100vh; 
+
+}
+
+#login-page-button {
+    margin-top: 2em;
+}
+
+#logout-page-button{
+    margin-top: 2em;
+    display : none;
+}
+
+#playlist-setup {
+    display: none;
+}
+
+#setup-div {
+    margin-top: 100px;
+}
